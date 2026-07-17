@@ -24,8 +24,9 @@ Placeholder objectives:
 - Build an implementation-ready repository with strong documentation from the start
 
 ## Architecture
-
-Placeholder architecture references:
+<p align="center">
+<img width="1024" height="559" alt="335adf88-87c5-43a9-8747-f70c9efa88d5" src="https://github.com/user-attachments/assets/0b0a833a-cf11-4c3d-9e53-47d8e5bcd9b5" />
+</p>
 
 - `architecture/`
 - `diagrams/`
