@@ -53,7 +53,7 @@ multicloud-waf-platform/
 |-- diagrams/
 |-- comparison/
 |-- docs/
-|-- screenshots/
+|-- evidence/
 |-- assets/
 `-- .github/
 ```
@@ -68,7 +68,7 @@ multicloud-waf-platform/
 - `diagrams/` will hold design visuals and supporting diagrams
 - `comparison/` will hold cross-cloud analysis artifacts
 - `docs/` will hold phase-based project documentation
-- `screenshots/` will hold validation and milestone evidence
+- `evidence/` will hold validation and milestone evidence
 - `assets/` will hold branding and visual assets
 - `.github/` will hold repository workflow and issue support assets
 
@@ -107,28 +107,28 @@ Placeholder: Terraform plan, apply, validate, destroy, and evidence flow will be
 
 Placeholder image references:
 
-![Phase 0](screenshots/phase-00/environment-validation.png)
-![Terraform Apply](screenshots/phase-01/terraform-apply.png)
-![AWS WAF Validation](screenshots/phase-02/aws-waf-validation.png)
-![GCP Armor Validation](screenshots/phase-03/gcp-armor-validation.png)
+![Phase 0](evidence/phase-00/environment-validation.png)
+![Terraform Apply](evidence/phase-01/terraform-apply.png)
+![AWS WAF Validation](evidence/phase-02/aws-waf-validation.png)
+![GCP Armor Validation](evidence/phase-03/gcp-armor-validation.png)
 
 ## Attack Simulation
 
 Placeholder image reference:
 
-![Attack Simulation](screenshots/phase-04/attack-simulation.png)
+![Attack Simulation](evidence/phase-04/attack-simulation.png)
 
 ## Failure Injection
 
 Placeholder image reference:
 
-![Failure Injection](screenshots/phase-05/failure-injection.png)
+![Failure Injection](evidence/phase-05/failure-injection.png)
 
 ## AWS vs GCP Comparison
 
 Placeholder image reference:
 
-![Comparison](screenshots/phase-06/comparison-dashboard.png)
+![Comparison](evidence/phase-06/comparison-dashboard.png)
 
 ## Cost Optimization
 
@@ -138,7 +138,7 @@ Placeholder: cost analysis findings will be summarized after implementation and 
 
 Placeholder image reference:
 
-![Destroy Validation](screenshots/phase-07/destroy-validation.png)
+![Destroy Validation](evidence/phase-07/destroy-validation.png)
 
 ## Lessons Learned
 
