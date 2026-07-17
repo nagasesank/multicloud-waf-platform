@@ -1,0 +1,6 @@
+# Example values for AWS-side Terraform input variables.
+# Replace placeholders with real values during implementation.
+
+# aws_region      = "us-east-1"
+# environment     = "dev"
+# project_name    = "multicloud-waf-platform"

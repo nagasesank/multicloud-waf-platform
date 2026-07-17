@@ -1,14 +1,19 @@
-<p align="center">
-<img width="1024" height="572" alt="a3d0b7ef-fdbf-4cdc-81aa-ffd1d6268977" src="https://github.com/user-attachments/assets/62f466a6-dd31-4c26-ac95-92e916cd8aa8" />
-</p>
-
 # Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
 
-![Terraform](https://img.shields.io/badge/Terraform-Placeholder-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Placeholder-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Placeholder-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Cloud Security](https://img.shields.io/badge/Cloud%20Security-Portfolio%20Project-0A66C2?style=for-the-badge)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Planned-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-Structured-5C4EE5?style=flat-square&logo=terraform&logoColor=white)
+![AWS WAF](https://img.shields.io/badge/AWS%20WAF-Evaluation-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Google Cloud Armor](https://img.shields.io/badge/Google%20Cloud%20Armor-Evaluation-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Cloud Security](https://img.shields.io/badge/Cloud%20Security-Engineering-0A66C2?style=flat-square)
+![DevSecOps](https://img.shields.io/badge/DevSecOps-Portfolio-264653?style=flat-square)
+![Infrastructure as Code](https://img.shields.io/badge/Infrastructure%20as%20Code-Terraform-6D28D9?style=flat-square)
+![OWASP Testing](https://img.shields.io/badge/OWASP-Testing-B22222?style=flat-square)
+![Portfolio Project](https://img.shields.io/badge/Portfolio-Project-1F6FEB?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-2EA043?style=flat-square)
+![GitHub Actions Planned](https://img.shields.io/badge/GitHub%20Actions-Planned-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+## Hero Banner
+
+![Hero Banner](assets/hero-banner.png)
 
 ## Project Overview
 
@@ -24,9 +29,8 @@ Placeholder objectives:
 - Build an implementation-ready repository with strong documentation from the start
 
 ## Architecture
-<p align="center">
-<img width="1024" height="559" alt="335adf88-87c5-43a9-8747-f70c9efa88d5" src="https://github.com/user-attachments/assets/0b0a833a-cf11-4c3d-9e53-47d8e5bcd9b5" />
-</p>
+
+![Architecture](architecture/architecture.png)
 
 - `architecture/`
 - `diagrams/`
@@ -107,28 +111,28 @@ Placeholder: Terraform plan, apply, validate, destroy, and evidence flow will be
 
 Placeholder image references:
 
-![Phase 0](evidence/phase-00/environment-validation.png)
-![Terraform Apply](evidence/phase-01/terraform-apply.png)
-![AWS WAF Validation](evidence/phase-02/aws-waf-validation.png)
-![GCP Armor Validation](evidence/phase-03/gcp-armor-validation.png)
+![Phase 0](evidence/phase-00/01-environment-validation.png)
+![Terraform Apply](evidence/phase-01/02-terraform-apply.png)
+![AWS WAF Validation](evidence/phase-02/03-aws-waf-validation.png)
+![GCP Armor Validation](evidence/phase-03/04-gcp-armor-validation.png)
 
 ## Attack Simulation
 
 Placeholder image reference:
 
-![Attack Simulation](evidence/phase-04/attack-simulation.png)
+![Attack Simulation](evidence/phase-04/05-attack-simulation.png)
 
 ## Failure Injection
 
 Placeholder image reference:
 
-![Failure Injection](evidence/phase-05/failure-injection.png)
+![Failure Injection](evidence/phase-05/06-failure-injection.png)
 
 ## AWS vs GCP Comparison
 
 Placeholder image reference:
 
-![Comparison](evidence/phase-06/comparison-dashboard.png)
+![Comparison](evidence/phase-06/07-comparison-dashboard.png)
 
 ## Cost Optimization
 
@@ -138,7 +142,7 @@ Placeholder: cost analysis findings will be summarized after implementation and 
 
 Placeholder image reference:
 
-![Destroy Validation](evidence/phase-07/destroy-validation.png)
+![Destroy Validation](evidence/phase-07/08-destroy-validation.png)
 
 ## Lessons Learned
 
