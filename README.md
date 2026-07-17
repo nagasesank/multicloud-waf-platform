@@ -1,3 +1,7 @@
+<p align="center">
+<img width="1024" height="572" alt="a3d0b7ef-fdbf-4cdc-81aa-ffd1d6268977" src="https://github.com/user-attachments/assets/62f466a6-dd31-4c26-ac95-92e916cd8aa8" />
+</p>
+
 # Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
 
 ![Terraform](https://img.shields.io/badge/Terraform-Placeholder-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white)
@@ -5,12 +9,6 @@
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Placeholder-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Cloud Security](https://img.shields.io/badge/Cloud%20Security-Portfolio%20Project-0A66C2?style=for-the-badge)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Planned-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-## Hero Banner
-
-Placeholder asset reference:
-
-![Hero Banner](assets/hero-banner.png)
 
 ## Project Overview
 
