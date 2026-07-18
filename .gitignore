@@ -2,12 +2,18 @@
 .terraform/
 *.tfstate
 *.tfstate.*
+terraform.tfvars
+*.tfvars
 crash.log
 crash.*.log
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+.terraform.lock.hcl
+
+# Sensitive files
+*.pem
 
 # Python
 __pycache__/
@@ -30,3 +36,17 @@ Desktop.ini
 *.log
 *.tmp
 *.bak
+
+# Non-source project artifacts
+architecture/
+diagrams/
+assets/
+evidence/
+comparison/
+
+# Image assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg

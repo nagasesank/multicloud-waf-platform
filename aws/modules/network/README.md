@@ -1,29 +1,38 @@
-# AWS Network Module
+# Network Module
 
-## Purpose
-
-Placeholder for the AWS network module that will define the shared networking layer for the AWS environment.
+This module provisions the foundational networking resources for the Multi-Cloud WAF Platform.
 
 ## Resources
 
-No Terraform resources are implemented yet.
+- Amazon VPC
+- Public Subnet
+- Internet Gateway
+- Public Route Table
+- Route Table Association
 
-## Inputs
+## Architecture
 
-Placeholder for future AWS network module input variables.
+Internet
+
+↓
+
+Internet Gateway
+
+↓
+
+Public Route Table
+
+↓
+
+Public Subnet
+
+↓
+
+EC2 / ALB (Next Modules)
 
 ## Outputs
 
-Placeholder for future AWS network module outputs.
-
-## Usage Example
-
-Placeholder for future module usage documentation.
-
-## Dependencies
-
-Placeholder for future dependencies on shared providers and supporting modules.
-
-## Notes
-
-Implementation is intentionally deferred until the infrastructure phase begins.
+- VPC ID
+- Public Subnet ID
+- Internet Gateway ID
+- Route Table ID
