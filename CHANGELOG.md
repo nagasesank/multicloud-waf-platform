@@ -1,8 +1,15 @@
-# Changelog
+v1.0.0
 
-All notable changes to this repository will be documented in this file.
+Initial release
 
-## [Unreleased]
+AWS Platform
 
-- Initial repository scaffold
-- Placeholder documentation and evidence structure
+GCP Platform
+
+Terraform Modules
+
+Documentation
+
+Architecture
+
+Evidence
