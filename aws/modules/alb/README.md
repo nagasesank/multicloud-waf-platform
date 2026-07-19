@@ -1,29 +1,68 @@
-# AWS ALB Module
+# Application Load Balancer Module
 
-## Purpose
+## Overview
 
-Placeholder for the AWS Application Load Balancer module that will front the AWS application deployment.
+This module provisions an internet-facing AWS Application Load Balancer that distributes incoming HTTP traffic to backend EC2 instances.
 
-## Resources
+---
 
-No Terraform resources are implemented yet.
+## Resources Created
 
-## Inputs
+- Application Load Balancer
+- Target Group
+- Listener
 
-Placeholder for future AWS ALB module input variables.
+---
 
-## Outputs
+## Architecture
 
-Placeholder for future AWS ALB module outputs.
+Internet
 
-## Usage Example
+↓
 
-Placeholder for future module usage documentation.
+Application Load Balancer
 
-## Dependencies
+↓
 
-Placeholder for future dependencies on networking, compute, and security controls.
+Target Group
 
-## Notes
+↓
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+EC2
+
+---
+
+## Features
+
+- Layer 7 Load Balancing
+- Health Checks
+- Target Groups
+- Internet-facing architecture
+- Modular Terraform implementation
+
+---
+
+## Validation
+
+- Terraform fmt
+- Terraform validate
+- Terraform plan
+- Terraform apply
+- ALB validation
+- Terraform destroy
+
+---
+
+## Evidence
+
+```
+evidence/
+└── phase-06/
+    └── aws-alb/
+```
+
+---
+
+## Module Status
+
+**Completed**

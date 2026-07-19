@@ -1,29 +1,76 @@
-# AWS IAM Module
+# IAM Module
 
-## Purpose
+## Overview
 
-Placeholder for the AWS IAM module that will define identity and access boundaries for the AWS deployment.
+This module provisions IAM resources required for the EC2 instance.
 
-## Resources
+It follows AWS security best practices by using IAM Roles and Instance Profiles instead of long-term credentials.
 
-No Terraform resources are implemented yet.
+---
 
-## Inputs
+## Resources Created
 
-Placeholder for future AWS IAM module input variables.
+- IAM Role
+- IAM Instance Profile
+- CloudWatch Policy Attachment
+- Amazon SSM Managed Instance Policy Attachment
 
-## Outputs
+---
 
-Placeholder for future AWS IAM module outputs.
+## Architecture
 
-## Usage Example
+EC2
 
-Placeholder for future module usage documentation.
+↓
 
-## Dependencies
+IAM Instance Profile
 
-Placeholder for future dependencies on shared AWS-side modules and providers.
+↓
 
-## Notes
+IAM Role
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+↓
+
+CloudWatch
+
+↓
+
+SSM
+
+---
+
+## Features
+
+- Least Privilege
+- No static credentials
+- IAM Role authentication
+- CloudWatch integration
+- SSM integration
+- Enterprise module design
+
+---
+
+## Validation
+
+- Terraform fmt
+- Terraform validate
+- Terraform plan
+- Terraform apply
+- IAM validation
+- Terraform destroy
+
+---
+
+## Evidence
+
+```
+evidence/
+└── phase-08/
+    └── aws-iam/
+```
+
+---
+
+## Module Status
+
+**Completed**

@@ -22,6 +22,19 @@ module "security" {
 
   my_ip = "223.185.46.53"
 }
+module "iam" {
+
+  source = "./modules/iam"
+
+  project_name = var.project_name
+  environment  = var.environment
+
+  common_tags = {
+    Project     = var.project_name
+    Environment = var.environment
+    Owner       = var.owner
+  }
+}
 module "compute" {
 
   source = "./modules/compute"
@@ -32,6 +45,8 @@ module "compute" {
   public_subnet_1_id = module.network.public_subnet_1_id
 
   ec2_security_group_id = module.security.ec2_security_group_id
+
+  iam_instance_profile = module.iam.instance_profile_name
 
   key_name = "MYlab"
 }

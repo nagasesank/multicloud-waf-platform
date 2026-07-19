@@ -4,7 +4,7 @@ data "aws_ssm_parameter" "amazon_linux" {
 }
 
 resource "aws_instance" "web" {
-
+  
   ami           = data.aws_ssm_parameter.amazon_linux.value
   instance_type = var.instance_type
 
@@ -15,7 +15,7 @@ resource "aws_instance" "web" {
   ]
 
   key_name = var.key_name
-
+  iam_instance_profile = var.iam_instance_profile
   associate_public_ip_address = true
 
   user_data = file("${path.module}/user_data.sh")

@@ -1,19 +1,50 @@
 # Compute Module
 
-This module provisions the web server for the Enterprise Multi-Cloud WAF Platform.
+## Overview
 
-## Resources
+This module provisions the EC2 instance hosting the sample web application.
 
-- Amazon Linux 2023 EC2 Instance
-- Nginx Web Server
-- IMDSv2 Metadata
-- Custom Landing Page
+The EC2 instance is deployed inside the public subnet and uses an IAM Instance Profile for secure AWS service access.
+
+---
+
+## Resources Created
+
+- Amazon EC2 Instance
+
+---
 
 ## Features
 
-- Uses latest Amazon Linux 2023 AMI
-- Uses SSM Parameter Store for dynamic AMI lookup
-- Uses existing Security Group
-- Uses existing Public Subnet
-- Installs Nginx automatically
-- Generates a custom HTML page with instance metadata
+- Amazon Linux
+- IAM Role integration
+- Security Group association
+- User Data support
+- Modular Terraform design
+
+---
+
+## Validation
+
+- Terraform fmt
+- Terraform validate
+- Terraform plan
+- Terraform apply
+- EC2 validation
+- Terraform destroy
+
+---
+
+## Evidence
+
+```
+evidence/
+└── phase-05/
+    └── aws-compute/
+```
+
+---
+
+## Module Status
+
+**Completed**

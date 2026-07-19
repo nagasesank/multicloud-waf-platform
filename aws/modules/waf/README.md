@@ -1,29 +1,68 @@
 # AWS WAF Module
 
-## Purpose
+## Overview
 
-Placeholder for the AWS WAF module that will define the AWS web application firewall layer and evaluation controls.
+This module provisions AWS Web Application Firewall (WAF) to protect the Application Load Balancer against common web attacks.
 
-## Resources
+---
 
-No Terraform resources are implemented yet.
+## Resources Created
 
-## Inputs
+- AWS Web ACL
+- Managed Rule Groups
+- Web ACL Association
 
-Placeholder for future AWS WAF module input variables.
+---
 
-## Outputs
+## Features
 
-Placeholder for future AWS WAF module outputs.
+- AWS Managed Rules
+- Layer 7 Protection
+- OWASP protection
+- SQL Injection protection
+- Cross-site scripting protection
 
-## Usage Example
+---
 
-Placeholder for future module usage documentation.
+## Architecture
 
-## Dependencies
+Internet
 
-Placeholder for future dependencies on the ALB layer, logging, and shared provider configuration.
+↓
 
-## Notes
+AWS WAF
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+↓
+
+Application Load Balancer
+
+↓
+
+EC2
+
+---
+
+## Validation
+
+- Terraform fmt
+- Terraform validate
+- Terraform plan
+- Terraform apply
+- WAF validation
+- Terraform destroy
+
+---
+
+## Evidence
+
+```
+evidence/
+└── phase-07/
+    └── aws-waf/
+```
+
+---
+
+## Module Status
+
+**Completed**
