@@ -94,35 +94,7 @@ The project implements equivalent cloud architectures across AWS and Google Clou
 Both implementations follow the same lifecycle:
 
 ```text
-Terraform Init
-
-↓
-
-Terraform Format
-
-↓
-
-Terraform Validate
-
-↓
-
-Terraform Plan
-
-↓
-
-Terraform Apply
-
-↓
-
-Cloud Console Validation
-
-↓
-
-Evidence Collection
-
-↓
-
-Terraform Destroy
+Terraform Init -> Terraform Format -> Terraform Validate -> Terraform Plan -> Terraform Apply -> Cloud Console Validation -> Evidence Collection -> Terraform Destroy
 ```
 
 ## Why This Project?
