@@ -37,20 +37,6 @@ Desktop.ini
 *.tmp
 *.bak
 
-# Non-source project artifacts
-architecture/
-diagrams/
-assets/
-evidence/
-comparison/
-
-# Image assets
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-
 #folders
 output/
 tmp/
