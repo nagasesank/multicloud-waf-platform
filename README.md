@@ -1,13 +1,14 @@
 
 <p align="center">
   <img src="assets/hero-banner.png" alt="Enterprise Multi-Cloud WAF Platform">
-</p># Enterprise Multi-Cloud Security Engineering Project
+</p>
 
-## Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
+# Enterprise Multi-Cloud Security Engineering Project
 
 > **Project Goal**
 >
 > Build and compare production-style AWS WAF and Google Cloud Armor environments using modular Terraform, enterprise documentation, validation evidence, and Infrastructure as Code best practices.
+
 <p align="center">
 
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?style=for-the-badge&logo=terraform)
@@ -17,6 +18,8 @@
 ![Documentation](https://img.shields.io/badge/Documentation-Enterprise-success?style=for-the-badge)
 
 </p>
+
+## Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
 
 A production-style **Infrastructure as Code (IaC)** project demonstrating how to design, deploy, validate, and compare **AWS WAF** and **Google Cloud Armor** using reusable Terraform modules.
 
