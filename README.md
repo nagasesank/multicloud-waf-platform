@@ -1,9 +1,13 @@
+
 <p align="center">
   <img src="assets/hero-banner.png" alt="Enterprise Multi-Cloud WAF Platform">
-</p>
+</p># Enterprise Multi-Cloud Security Engineering Project
 
-# Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
+## Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
 
+> **Project Goal**
+>
+> Build and compare production-style AWS WAF and Google Cloud Armor environments using modular Terraform, enterprise documentation, validation evidence, and Infrastructure as Code best practices.
 <p align="center">
 
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?style=for-the-badge&logo=terraform)
@@ -13,8 +17,6 @@
 ![Documentation](https://img.shields.io/badge/Documentation-Enterprise-success?style=for-the-badge)
 
 </p>
-
-## Enterprise Multi-Cloud Security Engineering Project
 
 A production-style **Infrastructure as Code (IaC)** project demonstrating how to design, deploy, validate, and compare **AWS WAF** and **Google Cloud Armor** using reusable Terraform modules.
 
@@ -26,15 +28,12 @@ Rather than focusing on a single cloud provider, this repository demonstrates a 
 
 The primary objectives of this project are to:
 
-- Build production-ready cloud infrastructure using Terraform
-- Implement reusable and modular Infrastructure as Code
-- Deploy secure web applications on AWS and Google Cloud
-- Protect applications using cloud-native Web Application Firewalls
-- Compare AWS WAF and Google Cloud Armor
-- Demonstrate enterprise cloud security architecture
-- Collect deployment and validation evidence
-- Maintain comprehensive technical documentation
-- Follow complete Infrastructure as Code lifecycle practices
+- Build modular Terraform infrastructure
+- Deploy secure AWS and GCP environments
+- Implement AWS WAF and Google Cloud Armor
+- Compare equivalent cloud-native services
+- Validate infrastructure deployments
+- Produce enterprise-grade documentation
 
 ## Key Features
 
@@ -156,23 +155,18 @@ This repository demonstrates how equivalent infrastructure can be implemented on
 - [Solution Architecture](#solution-architecture)
 - [Technology Stack](#technology-stack)
 - [Repository Structure](#repository-structure)
-- [Project Workflow](#project-workflow)
 - [Infrastructure Lifecycle](#infrastructure-lifecycle)
 - [Design Principles](#design-principles)
 - [AWS Implementation](#aws-implementation)
 - [Google Cloud Implementation](#google-cloud-implementation)
 - [AWS vs Google Cloud Comparison](#aws-vs-google-cloud-comparison)
 - [Documentation](#documentation)
-- [Deployment Workflow](#deployment-workflow)
 - [Engineering Highlights](#engineering-highlights)
 - [Validation Evidence](#validation-evidence)
-- [Project Statistics](#project-statistics)
 - [Project Screenshots](#project-screenshots)
 - [Implementation Roadmap](#implementation-roadmap)
 - [Future Enhancements](#future-enhancements)
 - [Learning Outcomes](#learning-outcomes)
-- [Repository Navigation](#repository-navigation)
-- [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
 
@@ -265,63 +259,6 @@ Enterprise-MultiCloud-WAF-Platform/
 │
 └── README.md
 ```
-## Quick Navigation
-
-| Area | Link |
-|------|------|
-| AWS Implementation | `aws/` |
-| Google Cloud Implementation | `gcp/` |
-| Technical Documentation | `docs/` |
-| Architecture Diagrams | `architecture/` |
-| Technical Diagrams | `diagrams/` |
-| Validation Evidence | `evidence/` |
-| Terraform Modules | `aws/modules/`, `gcp/modules/` |
-
-## Repository Organization
-
-| Directory | Description |
-|-----------|-------------|
-| `aws/` | AWS Terraform implementation |
-| `gcp/` | Google Cloud Terraform implementation |
-| `architecture/` | High-level architecture diagrams |
-| `assets/` | README images and visual assets |
-| `diagrams/` | Technical diagrams and comparisons |
-| `docs/` | Technical documentation |
-| `evidence/` | Validation screenshots |
-| `attack-scripts/` | Security validation scripts |
-
-## Project Workflow
-
-<p align="center">
-  <img src="assets/implementation-roadmap.png" alt="Implementation Roadmap">
-</p>
-
-The implementation follows a structured engineering workflow.
-
-```text
-Project Planning
-        │
-        ▼
-Terraform Module Development
-        │
-        ▼
-Infrastructure Deployment
-        │
-        ▼
-Cloud Resource Validation
-        │
-        ▼
-Security Validation
-        │
-        ▼
-Evidence Collection
-        │
-        ▼
-Technical Documentation
-        │
-        ▼
-Terraform Destroy
-```
 
 ## Infrastructure Lifecycle
 
@@ -377,21 +314,6 @@ The repository follows enterprise cloud engineering best practices.
 - Phase-wise Validation
 - Comprehensive Documentation
 - Cost-Conscious Resource Management
-
-## Project Deliverables
-
-The repository contains:
-
-- AWS Infrastructure Implementation
-- Google Cloud Infrastructure Implementation
-- AWS WAF Deployment
-- Google Cloud Armor Deployment
-- Terraform Modules
-- Enterprise Documentation
-- Architecture Diagrams
-- Validation Evidence
-- Multi-Cloud Comparison
-- Complete Infrastructure Lifecycle
 
 ## AWS Implementation
 
@@ -482,24 +404,16 @@ One of the primary objectives of this repository is to demonstrate equivalent in
 
 The repository includes comprehensive technical documentation for every implementation phase.
 
-| Documentation | Description |
-|---------------|-------------|
-| AWS Implementation | Architecture, Deployment, Validation, Cleanup |
-| Google Cloud Implementation | Architecture, Deployment, Validation, Cleanup |
-| Multi-Cloud Comparison | Architecture, WAF, Terraform, Cost |
+| Documentation | Description | Link |
+|---------------|-------------|------|
+| AWS Implementation | Architecture, Deployment, Validation, Cleanup | docs/aws/README.md |
+| Google Cloud Implementation | Architecture, Deployment, Validation, Cleanup | docs/gcp/README.md |
+| Multi-Cloud Comparison | Architecture, WAF, Terraform, Cost | docs/comparison/README.md |
 | Architecture Diagrams | Enterprise Architecture |
 | Deployment Guides | Step-by-Step Instructions |
 | Validation Guides | Infrastructure Verification |
 | Cleanup Guides | Resource Removal |
 
-## Documentation Index
-
-| Category | Documents |
-|----------|-----------|
-| AWS | 5 |
-| Google Cloud | 5 |
-| Comparison | 5 |
-| Total Documentation | 15 |
 
 ### Documentation Structure
 
@@ -526,35 +440,6 @@ docs/
     ├── waf-comparison.md
     ├── terraform-comparison.md
     └── cost-comparison.md
-```
-
-## Deployment Workflow
-
-The same Infrastructure as Code workflow is followed across both cloud providers.
-
-```text
-Terraform Init
-      │
-      ▼
-Terraform Validate
-      │
-      ▼
-Terraform Plan
-      │
-      ▼
-Terraform Apply
-      │
-      ▼
-Cloud Console Validation
-      │
-      ▼
-Application Testing
-      │
-      ▼
-Evidence Collection
-      │
-      ▼
-Terraform Destroy
 ```
 
 ## Engineering Highlights
@@ -611,19 +496,6 @@ evidence/
     └── phase-07/
 ```
 
-## Project Statistics
-
-| Metric | Value |
-|---------|------:|
-| Cloud Providers | 2 |
-| Terraform Modules | 14 |
-| Documentation Files | 15 |
-| Architecture Diagrams | 10+ |
-| Comparison Guides | 4 |
-| Validation Phases | 15 |
-| Infrastructure as Code | 100% Terraform |
-| Supported Platforms | AWS & Google Cloud |
-
 ## Repository Metrics
 
 | Metric | Count |
@@ -636,6 +508,7 @@ evidence/
 | Visual Assets | 5 |
 | Validation Phases | 15 |
 | Terraform Lifecycle | End-to-End |
+| Repository Version | v1.0.0 |
 
 ## Project Screenshots
 
@@ -698,56 +571,19 @@ Planned improvements include:
 - Infrastructure Compliance Validation
 - Monitoring Dashboards
 - Cost Optimization Dashboard
+- GitHub Actions Terraform Validation
+- Pre-commit Hooks
 
 ## Learning Outcomes
 
-This project demonstrates practical experience with:
-
-### Cloud Platforms
-
-- Amazon Web Services (AWS)
-- Google Cloud Platform (GCP)
-
-### Infrastructure as Code
-
-- Terraform
-- Modular Infrastructure Design
-- Infrastructure Lifecycle Management
-
-### Cloud Security
-
+- Multi-Cloud Architecture
+- Terraform Module Design
 - AWS WAF
 - Google Cloud Armor
 - IAM
-- Network Security
-- Layer 7 Protection
-
-### Engineering Practices
-
+- Infrastructure Validation
 - Enterprise Documentation
-- Version Control
-- Validation Methodology
-- Infrastructure Testing
-- Evidence Collection
-
-## Repository Navigation
-
-| Section | Description |
-|---------|-------------|
-| `aws/` | AWS Terraform Implementation |
-| `gcp/` | Google Cloud Terraform Implementation |
-| `docs/` | Technical Documentation |
-| `architecture/` | Architecture Diagrams |
-| `diagrams/` | Technical Illustrations |
-| `assets/` | README Assets |
-| `evidence/` | Deployment Evidence |
-| `attack-scripts/` | Security Validation Scripts |
-
-## Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-If you identify opportunities to improve the project, documentation, or Terraform implementation, feel free to open an issue or submit a pull request.
+- Infrastructure Lifecycle Management
 
 ## License
 
@@ -764,30 +600,10 @@ Cloud Security Engineer | AWS | GCP | Terraform | DevSecOps
 [![GitHub](https://img.shields.io/badge/GitHub-nagasesank-181717?logo=github&logoColor=white)](https://github.com/nagasesank)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Surya%20Sesank-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryasesank/)
 
-Specializations:
-
-- Cloud Security
-- Infrastructure as Code
-- AWS
-- Google Cloud
-- Terraform
-- Web Application Security
 
 ## Acknowledgements
 
 This project was developed as a hands-on engineering portfolio to demonstrate enterprise Infrastructure as Code practices, cloud security implementation, and multi-cloud architecture using AWS and Google Cloud.
-
-Special thanks to the Terraform, AWS, and Google Cloud communities for providing the open technologies and documentation that make projects like this possible.
-
-## Support
-
-If you found this repository useful:
-
-- Star this repository
-- Share it with others
-- Provide feedback through GitHub Issues
-
-Your feedback helps improve future versions of this project.
 
 <p align="center">
 
