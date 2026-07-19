@@ -1,8 +1,8 @@
-# Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
-
 <p align="center">
   <img src="assets/hero-banner.png" alt="Enterprise Multi-Cloud WAF Platform">
 </p>
+
+# Enterprise Multi-Cloud Web Application Firewall Evaluation Platform
 
 <p align="center">
 
