@@ -1,29 +1,74 @@
 # GCP IAM Module
 
-## Purpose
+## Overview
 
-Placeholder for the GCP IAM module that will define identity and access boundaries for the Google Cloud deployment.
+This module provisions a dedicated Service Account and assigns only the minimum IAM permissions required by the Compute Engine instance.
 
-## Resources
+---
 
-No Terraform resources are implemented yet.
+## Resources Created
+
+- Service Account
+- Logging Writer Role
+- Monitoring Metric Writer Role
+
+---
+
+## Terraform Resources
+
+- google_service_account
+- google_project_iam_member
+
+---
 
 ## Inputs
 
-Placeholder for future GCP IAM module input variables.
+- project_id
+- project_name
+
+---
 
 ## Outputs
 
-Placeholder for future GCP IAM module outputs.
+- service_account_email
+- service_account_name
 
-## Usage Example
+---
 
-Placeholder for future module usage documentation.
+## Validation
+
+Verify:
+
+- Service Account created
+- IAM Roles assigned
+- VM attached to Service Account
+
+Console:
+
+IAM & Admin
+
+↓
+
+Service Accounts
+
+---
 
 ## Dependencies
 
-Placeholder for future dependencies on shared GCP-side modules and providers.
+Used By:
 
-## Notes
+- Compute Module
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+---
+
+## Engineering Decisions
+
+- Dedicated Service Account
+- Principle of Least Privilege
+- Production IAM Design
+
+---
+
+## Phase
+
+G07 – IAM

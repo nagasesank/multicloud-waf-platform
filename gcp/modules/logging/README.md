@@ -1,29 +1,60 @@
-# GCP Logging Module
+# GCP Backend Logging Module
 
-## Purpose
+## Overview
 
-Placeholder for the GCP logging module that will define observability and logging support for the Google Cloud deployment.
+This module enables HTTP Load Balancer backend request logging.
 
-## Resources
+---
 
-No Terraform resources are implemented yet.
+## Resources Updated
 
-## Inputs
+Backend Service
 
-Placeholder for future GCP logging module input variables.
+---
 
-## Outputs
+## Configuration
 
-Placeholder for future GCP logging module outputs.
+log_config {
 
-## Usage Example
+enable = true
 
-Placeholder for future module usage documentation.
+sample_rate = 1.0
+
+}
+
+---
+
+## Validation
+
+Verify:
+
+Backend Service
+
+↓
+
+Logging Enabled
+
+↓
+
+Sample Rate = 1.0
+
+---
 
 ## Dependencies
 
-Placeholder for future dependencies on application, Cloud Armor, and shared security modules.
+Requires:
 
-## Notes
+- Load Balancer
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+---
+
+## Engineering Decisions
+
+- 100% request logging
+- Centralized observability
+
+---
+
+## Phase
+
+G06 – Backend Logging

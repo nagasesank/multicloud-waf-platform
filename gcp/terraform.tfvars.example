@@ -1,6 +1,4 @@
-# Example values for GCP-side Terraform input variables.
-# Replace placeholders with real values during implementation.
-
-# project_id      = "example-project-id"
-# region          = "us-central1"
-# environment     = "dev"
+project_id   = "your-gcp-project-id"
+region       = "asia-south1"
+zone         = "asia-south1-a"
+project_name = "multicloud-waf"

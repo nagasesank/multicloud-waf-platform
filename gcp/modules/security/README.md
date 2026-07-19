@@ -1,29 +1,113 @@
 # GCP Security Module
 
-## Purpose
+## Overview
 
-Placeholder for the GCP security module that will capture shared security controls outside dedicated Cloud Armor behavior.
+The **Security** module configures Google Cloud firewall rules to secure the infrastructure while allowing only the required inbound traffic.
 
-## Resources
+This module follows the Principle of Least Privilege by permitting only HTTP, SSH, and Health Check traffic.
 
-No Terraform resources are implemented yet.
+---
+
+## Architecture
+
+Internet
+│
+├── HTTP (80)
+├── SSH (22)
+└── Google Health Checks
+        │
+        ▼
+Firewall Rules
+        │
+        ▼
+Compute Engine
+
+---
+
+## Resources Created
+
+| Resource | Description |
+|----------|-------------|
+| HTTP Firewall Rule | Allows inbound HTTP traffic |
+| SSH Firewall Rule | Allows SSH administration |
+| Health Check Rule | Allows Google Load Balancer health checks |
+
+---
+
+## Terraform Resources
+
+- google_compute_firewall
+
+---
 
 ## Inputs
 
-Placeholder for future GCP security module input variables.
+- project_id
+- project_name
+- network_name
+
+---
 
 ## Outputs
 
-Placeholder for future GCP security module outputs.
+- http_firewall_name
+- ssh_firewall_name
+- healthcheck_firewall_name
 
-## Usage Example
+---
 
-Placeholder for future module usage documentation.
+## Validation
+
+Verify:
+
+- HTTP rule created
+- SSH rule created
+- Health Check rule created
+
+Console:
+
+VPC Network → Firewall
+
+---
+
+## Deployment
+
+terraform fmt
+
+terraform validate
+
+terraform plan
+
+terraform apply
+
+---
+
+## Destroy
+
+terraform destroy
+
+---
 
 ## Dependencies
 
-Placeholder for future dependencies on networking, IAM, and provider configuration.
+Requires:
 
-## Notes
+- Network Module
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+Used By:
+
+- Compute Module
+
+---
+
+## Engineering Decisions
+
+- Least Privilege firewall rules
+- Network Tag based association
+- Production-ready naming convention
+
+---
+
+## Phase
+
+G02 – Firewall

@@ -1,29 +1,71 @@
-# GCP Armor Module
+# GCP Cloud Armor Module
 
-## Purpose
+## Overview
 
-Placeholder for the GCP Cloud Armor module that will define the Google Cloud web application firewall layer and evaluation controls.
+The Cloud Armor module protects the backend service using Layer 7 Web Application Firewall policies.
 
-## Resources
+---
 
-No Terraform resources are implemented yet.
+## Resources Created
+
+- Cloud Armor Security Policy
+- Deny Rule
+- Default Allow Rule
+
+---
+
+## Terraform Resources
+
+- google_compute_security_policy
+
+---
 
 ## Inputs
 
-Placeholder for future GCP Cloud Armor module input variables.
+- project_name
+
+---
 
 ## Outputs
 
-Placeholder for future GCP Cloud Armor module outputs.
+- security_policy_id
 
-## Usage Example
+---
 
-Placeholder for future module usage documentation.
+## Validation
+
+Verify:
+
+- Security Policy created
+- Attached to Backend Service
+- Rules applied successfully
+
+Console:
+
+Network Security
+
+↓
+
+Cloud Armor
+
+---
 
 ## Dependencies
 
-Placeholder for future dependencies on the load balancer layer, logging, and shared provider configuration.
+Requires:
 
-## Notes
+- Load Balancer
 
-Implementation is intentionally deferred until the infrastructure phase begins.
+---
+
+## Engineering Decisions
+
+- Default Deny Strategy
+- Explicit Allow Rules
+- Backend Service Attachment
+
+---
+
+## Phase
+
+G05 – Cloud Armor

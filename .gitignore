@@ -50,3 +50,7 @@ comparison/
 *.jpeg
 *.gif
 *.svg
+
+#folders
+output/
+tmp/
