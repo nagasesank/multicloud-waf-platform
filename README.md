@@ -659,7 +659,7 @@ The following screenshots demonstrate the successful deployment and validation o
 
 | AWS IAM | Google Cloud Cleanup |
 |----------|----------------------|
-| ![](evidence/aws/phase-08/04-iam-role.png) | ![](evidence/gcp/phase-g07/terraform-destroy.png) |
+| ![](evidence/aws/Phase-08/04-iam-role.png) | ![](evidence/gcp/phase-g07/terraform-destroy.png) |
 
 **Figure 5:** AWS IAM Role attached to the EC2 instance following the Principle of Least Privilege.
 
